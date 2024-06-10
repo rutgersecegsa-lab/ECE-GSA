@@ -1,3 +1,5 @@
+This repository is made with help of "Klinik Clinic Website Template" by HTML Codex. See the details below.
+ 
   =>  Template Name    : Klinik - Clinic Website Template
 
   =>  Template Link    : https://htmlcodex.com/clinic-website-template

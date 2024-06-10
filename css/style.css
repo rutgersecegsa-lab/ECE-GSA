@@ -269,8 +269,41 @@
     background-size: cover;
 }
 
+.contact-header {
+    background: url(../img/header-contact.png) top center no-repeat;
+    background-size: cover;
+}
+
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
+}
+
+
+.logo-spacing {
+    padding: 10px; /* Adjust padding as needed */
+    max-width: 100%;
+    height: auto;
+}
+
+.container .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 991.98px) {
+    .logo-spacing {
+        padding: 5px; /* Adjust padding as needed for smaller screens */
+        max-width: 50%; /* Reduce size on smaller screens */
+    }
+}
+
+@media (max-width: 767.98px) {
+    .logo-spacing {
+        padding: 2px; /* Further reduce padding for very small screens */
+        max-width: 50%; /* Further reduce size for very small screens */
+    }
 }
 
 
