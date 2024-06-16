@@ -10,8 +10,8 @@
     background-color: #000000 !important; /* Set to black */
 }
 
-h1 {
-    color: #000000; /* Sets the color of all h1 elements to black */
+h1, h5 {
+    color: #000000;
 }
 
 .fw-medium {
