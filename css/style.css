@@ -2,7 +2,16 @@
 :root {
     --primary: #0463FA;
     --light: #EFF5FF;
-    --dark: #1B2C51;
+    --dark: #000000;
+    --danger: red; 
+}
+
+.bg-dark {
+    background-color: #000000 !important; /* Set to black */
+}
+
+h1 {
+    color: #000000; /* Sets the color of all h1 elements to black */
 }
 
 .fw-medium {
@@ -100,7 +109,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: var(--danger);
 }
 
 @media (max-width: 991.98px) {
@@ -191,8 +200,8 @@
 
 .header-carousel .owl-nav .owl-prev:hover,
 .header-carousel .owl-nav .owl-next:hover {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--danger);
+    border-color: var(--danger);
 }
 
 .header-carousel .owl-dots {
@@ -230,8 +239,8 @@
 }
 
 .header-carousel .owl-dot.active {
-    background: var(--primary);
-    border-color: var(--primary);
+    background: var(--danger);
+    border-color: var(--danger);
 }
 
 .page-header {
@@ -396,14 +405,14 @@
 
 .team-item .team-social .btn {
     display: inline-flex;
-    color: var(--primary);
+    color: var(--danger);
     background: #FFFFFF;
     border-radius: 40px;
 }
 
 .team-item .team-social .btn:hover {
     color: #FFFFFF;
-    background: var(--primary);
+    background: var(--danger);
 }
 
 
@@ -427,11 +436,11 @@
 
 .bootstrap-datetimepicker-widget table td.active,
 .bootstrap-datetimepicker-widget table td.active:hover {
-    background: var(--primary);
+    background: var(--danger);
 }
 
 .bootstrap-datetimepicker-widget table td.today::before {
-    border-bottom-color: var(--primary);
+    border-bottom-color: var(--danger);
 }
 
 
@@ -479,7 +488,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-text {
-    background: var(--primary);
+    background: var(--danger);
     transform: scale(1);
 }
 
@@ -493,7 +502,7 @@
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item img {
-    background: var(--primary) !important;
+    background: var(--danger) !important;
 } 
 
 .testimonial-carousel .owl-nav {
@@ -517,7 +526,7 @@
 .testimonial-carousel .owl-nav .owl-prev,
 .testimonial-carousel .owl-nav .owl-next {
     position: relative;
-    color: var(--primary);
+    color: var(--danger);
     font-size: 45px;
     transition: .5s;
 }
@@ -542,7 +551,7 @@
 }
 
 .footer .btn.btn-social:hover {
-    color: var(--primary);
+    color: var(--danger);
 }
 
 .footer .btn.btn-link {
@@ -566,7 +575,7 @@
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color: var(--danger);
     letter-spacing: 1px;
     box-shadow: none;
 }
@@ -582,5 +591,5 @@
 }
 
 .footer .copyright a:hover {
-    color: var(--primary);
+    color: var(--danger);
 }
