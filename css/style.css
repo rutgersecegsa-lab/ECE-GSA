@@ -605,7 +605,7 @@ h1, h5 {
 
 @media (max-width: 576px) {
     .navbar-brand img {
-        height: 20px; /* Adjust this value if needed */
+        height: 10px; /* Adjust this value if needed */
         width: auto;
     }
 
