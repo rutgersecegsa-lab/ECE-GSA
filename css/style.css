@@ -602,3 +602,14 @@ h1, h5 {
 .footer .copyright a:hover {
     color: var(--danger);
 }
+
+@media (max-width: 576px) {
+    .navbar-brand img {
+        height: 40px; /* Adjust this value if needed */
+        width: auto;
+    }
+
+    .navbar-brand h1 {
+        font-size: 1.5rem; /* Adjust font size if necessary */
+    }
+}
