@@ -38,7 +38,7 @@ def resize_image(input_path, output_path, width=500, height=600):
         print(f"Image resized to {width}x{height} and saved as {output_path}")
 
 # Example usage:
-input_path = 'img/team-RushikaThandra.jpg'  # Replace with your input image path
-output_path = 'img/team-RushikaThandra.jpg'  # Replace with your desired output image path
-crop_image_to_ratio(input_path, output_path, 5, 6)
-resize_image(input_path, input_path, 500, 600)
+input_path = 'img/orientation.jpg'  # Replace with your input image path
+output_path = 'img/orientation.jpg'  # Replace with your desired output image path
+# crop_image_to_ratio(input_path, output_path, 5, 6)
+resize_image(input_path, input_path, 1000, 1000)
