@@ -610,7 +610,7 @@ h1, h5 {
 
 @media (max-width: 600px) {
     .logo {
-        max-width: 70%; /* Limit the width on smaller screens */
+        max-width: 50%; /* Limit the width on smaller screens */
         height: auto;   /* Maintain aspect ratio */
     }
 }
