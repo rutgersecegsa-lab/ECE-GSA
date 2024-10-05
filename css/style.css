@@ -602,3 +602,15 @@ h1, h5 {
 .footer .copyright a:hover {
     color: var(--danger);
 }
+
+.logo {
+    height: auto;
+    width: auto;
+    max-height: 80px; /* Keep the logo size under control on larger screens */
+}
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        max-height: 60px; /* Resize the logo for smaller screens */
+    }
+}
