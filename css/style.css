@@ -132,29 +132,6 @@ h1, h5 {
     }
 }
 
-@media (max-width: 576px) {
-    .navbar-brand {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start; /* Align logo and text tightly */
-        width: 100%; /* Ensure the brand container takes full width */
-    }
-
-    .navbar-brand img {
-        height: 30px; /* Adjust logo size */
-        width: auto;
-    }
-
-    .navbar-brand h1 {
-        font-size: 1.25rem; /* Adjust font size */
-        margin-left: 0; /* No spacing between logo and text */
-    }
-
-    .navbar-toggler {
-        margin-left: auto; /* Push the toggler button to the right */
-    }
-}
-
 .navbar .navbar-brand,
 .navbar a.btn {
     height: 75px;
