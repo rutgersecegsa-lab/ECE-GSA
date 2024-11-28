@@ -95,6 +95,13 @@ h1, h5 {
     font-weight: normal;
 }
 
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Optional: Adds spacing above and below the calendar */
+}
+
 
 /*** Navbar ***/
 .navbar .dropdown-toggle::after {
@@ -314,6 +321,12 @@ h1, h5 {
     background: url(../img/header-contact.png) top center no-repeat;
     background-size: cover;
 }
+
+.events-header {
+    background: url(../img/header-events.jpg) top center no-repeat;
+    background-size: cover;
+}
+
 
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
