@@ -318,7 +318,7 @@ h1, h5 {
 }
 
 .contact-header {
-    background: url(../img/header-contact.png) top center no-repeat;
+    background: url(../img/header-contact.jpg) top center no-repeat;
     background-size: cover;
 }
 
@@ -650,3 +650,7 @@ h1, h5 {
         height: auto;   /* Maintain aspect ratio */
     }
 }
+
+.alumni-name {
+    font-size: 18px; /* adjust the value as needed */
+  }

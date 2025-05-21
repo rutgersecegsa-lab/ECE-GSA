@@ -1,7 +1,7 @@
 from PIL import Image
 
 
-def crop_image_to_ratio(input_path, output_path, width_ratio = 5, height_ratio = 6):
+def crop_image_to_ratio(input_path, output_path, width_ratio = 5, height_ratio = 5):
     # Open the image
     image = Image.open(input_path)
     width, height = image.size
@@ -28,7 +28,7 @@ def crop_image_to_ratio(input_path, output_path, width_ratio = 5, height_ratio =
     # Save the cropped image
     cropped_image.save(output_path)
 
-def resize_image(input_path, output_path, width=500, height=600):
+def resize_image(input_path, output_path, width=1000, height=1000):
     # Open an image file
     with Image.open(input_path) as img:
         # Resize the image
@@ -38,7 +38,7 @@ def resize_image(input_path, output_path, width=500, height=600):
         print(f"Image resized to {width}x{height} and saved as {output_path}")
 
 # Example usage:
-input_path = 'img/orientation.jpg'  # Replace with your input image path
-output_path = 'img/orientation.jpg'  # Replace with your desired output image path
-# crop_image_to_ratio(input_path, output_path, 5, 6)
+input_path = 'img/smore.jpg'  # Replace with your input image path
+output_path = 'img/smore.jpg'  # Replace with your desired output image path
+crop_image_to_ratio(input_path, output_path, 5, 5)
 resize_image(input_path, input_path, 1000, 1000)
